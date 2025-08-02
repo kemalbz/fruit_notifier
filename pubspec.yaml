@@ -1,0 +1,19 @@
+name: fruit_notifications
+description: Meyve alarm sistemi
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  flutter_local_notifications: ^9.2.0
+  audioplayers: ^4.1.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/light_fruit.mp3
